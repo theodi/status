@@ -6,13 +6,8 @@ layout: default
 <table class='table table-striped table-condensed'>
   {% for group in site.data.apps %}
     <tr>
-      <th colspan="9">
-        <h2>{{group[0]}}</h2>
-      </th>
-    </tr>
-    <tr>
       <th>
-        App
+        {{group[0]}}
       </th>
       <th>
         Issues

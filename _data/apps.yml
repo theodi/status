@@ -1,12 +1,12 @@
 Personal:
   floppy.org.uk:
-    repo: floppy/floppy.github.io
+    repo: Floppy/floppy.github.io
     heroku: 
 CDC:
   cri du chat:
     repo: cdcssg/cdcssg.github.io
     heroku: 
-Openpolitics:
+OpenPolitics:
   openpolitics:
     repo: openpolitics/openpolitics.github.io
     heroku: 
@@ -24,14 +24,14 @@ Openpolitics:
     heroku: votebot
 Something New:
   somethingnew.org.uk:
-    repo: somethingnewuk/somethingnewuk.github.io
+    repo: SomethingNewUK/somethingnewuk.github.io
     heroku: 
   popolo:
-    repo: somethingnewuk/popolo-data
+    repo: SomethingNewUK/popolo-data
     heroku: 
   finances:
-    repo: somethingnewuk/finances
+    repo: SomethingNewUK/finances
     heroku: 
   advertising:
-    repo: somethingnewuk/advertising
+    repo: SomethingNewUK/advertising
     heroku: 

@@ -14,7 +14,7 @@ OpenPolitics:
     repo: openpolitics/manifesto
     heroku: 
   leanpub-manifesto:
-    repo: openpolitics/manifesto
+    repo: openpolitics/leanpub-manifesto
     heroku: 
   uk-taxes:
     repo: openpolitics/uk-taxes

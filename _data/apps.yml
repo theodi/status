@@ -1,54 +1,24 @@
-Toolbox:
-  bothan:
-    repo: theodi/bothan
-    heroku: bothan-demo
-  certificates:
-    repo: theodi/open-data-certificate
+Personal:
+  floppy.org.uk:
+    repo: floppy/floppy.github.io
     heroku: 
-  comma-chameleon:
-    repo: theodi/comma-chameleon
+CDC:
+  cri du chat:
+    repo: cdcssg/cdcssg.github.io
+    heroku: 
+Politics:
+  openpolitics:
+    repo: openpolitics/openpolitics.github.io
+    heroku: 
+  manifesto:
+    repo: openpolitics/manifesto
+    heroku: 
+  uk-taxes:
+    repo: openpolitics/uk-taxes
     heroku:
-  csvlint:
-    repo: theodi/csvlint
-    heroku: csvlint
-  octopub:
-    repo: theodi/octopub
-    heroku: octopub
-  pathway:
-    repo: theodi/pathway
-    heroku: odmat
-Website:
-  asset-manager:
-    repo: theodi/asset-manager
-    heroku: odi-asset-manager
-  contentapi:
-    repo: theodi/content_api
-    heroku: odi-contentapi
-  panopticon:
-    repo: theodi/panopticon
-    heroku: odi-panopticon
-  publisher:
-    repo: theodi/publisher
-    heroku: odi-publisher
-  signonotron2:
-    repo: theodi/signonotron2
-    heroku: odi-signon
-  static:
-    repo: theodi/static
-    heroku: odi-static
-  www:
-    repo: theodi/frontend-www
-    heroku: odi-www
-Miscellaneous:
-  dashboards:
-    repo: theodi/dashboards
-    heroku: odi-dashboards
-  forkbomb:
-    repo: theodi/forkbomb
-    heroku: forkbomb
-  member-directory:
-    repo: theodi/member-directory
-    heroku: odi-member-directory
-  services-manager:
-    repo: theodi/services-manager
-    heroku: odi-services-manager
+  votebot:
+    repo: openpolitics/votebot
+    heroku: votebot
+  somethingnew.org.uk:
+    repo: somethingnewuk/somethingnewuk.github.io
+    heroku: 

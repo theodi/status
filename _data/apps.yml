@@ -22,3 +22,12 @@ Politics:
   somethingnew.org.uk:
     repo: somethingnewuk/somethingnewuk.github.io
     heroku: 
+  popolo:
+    repo: somethingnewuk/popolo-data
+    heroku: 
+  finances:
+    repo: somethingnewuk/finances
+    heroku: 
+  advertising:
+    repo: somethingnewuk/advertising
+    heroku: 

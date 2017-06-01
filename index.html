@@ -42,28 +42,28 @@ layout: default
     {% for app in group[1] %}
       <tr>
         <td>
-          <a href='https://github.com/theodi/{{app[1]["repo"]}}'>{{app[0]}}</a>
+          <a href='https://github.com/{{app[1]["repo"]}}'>{{app[0]}}</a>
         </td>
         <td>
-          <img src='https://img.shields.io/github/issues/theodi/{{app[1]["repo"]}}.svg'/>
+          <img src='https://img.shields.io/github/issues/{{app[1]["repo"]}}.svg'/>
         </td>      
         <td>
-          <img src='https://img.shields.io/github/issues-pr/theodi/{{app[1]["repo"]}}.svg'/>
+          <img src='https://img.shields.io/github/issues-pr/{{app[1]["repo"]}}.svg'/>
         </td>
         <td>
-          <img src='https://img.shields.io/travis/theodi/{{app[1]["repo"]}}.svg'/>
+          <img src='https://img.shields.io/travis/{{app[1]["repo"]}}.svg'/>
         </td>
         <td>
-          <img src='https://img.shields.io/coveralls/theodi/{{app[1]["repo"]}}.svg'/>
+          <img src='https://img.shields.io/coveralls/{{app[1]["repo"]}}.svg'/>
         </td>
         <td>
-          <img src='https://img.shields.io/gemnasium/theodi/{{app[1]["repo"]}}.svg'/>
+          <img src='https://img.shields.io/gemnasium/{{app[1]["repo"]}}.svg'/>
         </td>
         <td>
-          <img src='https://dependencyci.com/github/theodi/{{app[1]["repo"]}}/badge'/>
+          <img src='https://dependencyci.com/github/{{app[1]["repo"]}}/badge'/>
         </td>
         <td>
-          <img src='https://img.shields.io/codeclimate/github/theodi/{{app[1]["repo"]}}.svg'/>
+          <img src='https://img.shields.io/codeclimate/github/{{app[1]["repo"]}}.svg'/>
         </td>
         <td>
           {% if app[1]["heroku"] %}

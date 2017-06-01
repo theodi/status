@@ -35,3 +35,9 @@ Something New:
   advertising:
     repo: SomethingNewUK/advertising
     heroku: 
+  redirector:
+    repo: SomethingNewUK/redirector
+    heroku: 
+  id generator:
+    repo: SomethingNewUK/id_generator
+    heroku: 

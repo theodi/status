@@ -6,11 +6,14 @@ CDC:
   cri du chat:
     repo: cdcssg/cdcssg.github.io
     heroku: 
-Politics:
+Openpolitics:
   openpolitics:
     repo: openpolitics/openpolitics.github.io
     heroku: 
   manifesto:
+    repo: openpolitics/manifesto
+    heroku: 
+  leanpub-manifesto:
     repo: openpolitics/manifesto
     heroku: 
   uk-taxes:
@@ -19,6 +22,7 @@ Politics:
   votebot:
     repo: openpolitics/votebot
     heroku: votebot
+Something New:
   somethingnew.org.uk:
     repo: somethingnewuk/somethingnewuk.github.io
     heroku: 

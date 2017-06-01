@@ -1,0 +1,78 @@
+---
+layout: default
+---
+<h1>ODI App Status</h1>
+
+<table class='table table-striped table-condensed'>
+  {% for group in site.data.apps %}
+    <tr>
+      <th colspan="9">
+        <h2>{{group[0]}}</h2>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        App
+      </th>
+      <th>
+        Issues
+      </th>
+      <th>
+        Pull Requests
+      </th>
+      <th>
+        Travis
+      </th>
+      <th>
+        Coveralls
+      </th>
+      <th>
+        Gemnasium
+      </th>
+      <th>
+        DependencyCI
+      </th>
+      <th>
+        Codeclimate
+      </th>
+      <th>
+        Heroku
+      </th>
+    </tr>
+    {% for app in group[1] %}
+      <tr>
+        <td>
+          <a href='https://github.com/theodi/{{app[1]["repo"]}}'>{{app[0]}}</a>
+        </td>
+        <td>
+          <img src='https://img.shields.io/github/issues/theodi/{{app[1]["repo"]}}.svg'/>
+        </td>      
+        <td>
+          <img src='https://img.shields.io/github/issues-pr/theodi/{{app[1]["repo"]}}.svg'/>
+        </td>
+        <td>
+          <img src='https://img.shields.io/travis/theodi/{{app[1]["repo"]}}.svg'/>
+        </td>
+        <td>
+          <img src='https://img.shields.io/coveralls/theodi/{{app[1]["repo"]}}.svg'/>
+        </td>
+        <td>
+          <img src='https://img.shields.io/gemnasium/theodi/{{app[1]["repo"]}}.svg'/>
+        </td>
+        <td>
+          <img src='https://dependencyci.com/github/theodi/{{app[1]["repo"]}}/badge'/>
+        </td>
+        <td>
+          <img src='https://img.shields.io/codeclimate/github/theodi/{{app[1]["repo"]}}.svg'/>
+        </td>
+        <td>
+          {% if app[1]["heroku"] %}
+            <a href='https://dashboard.heroku.com/apps/{{app[1]["heroku"]}}'>
+              <img src='https://heroku-badge.herokuapp.com/?app={{app[1]["heroku"]}}&style=flat&svg=1'/>
+            </a>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  {% endfor %}
+</table>

@@ -1,0 +1,54 @@
+Toolbox:
+  bothan:
+    repo: bothan
+    heroku: bothan-demo
+  certificates:
+    repo: open-data-certificate
+    heroku: 
+  comma-chameleon:
+    repo: comma-chameleon
+    heroku:
+  csvlint:
+    repo: csvlint
+    heroku: csvlint
+  octopub:
+    repo: octopub
+    heroku: octopub
+  pathway:
+    repo: pathway
+    heroku: odmat
+Website:
+  asset-manager:
+    repo: asset-manager
+    heroku: odi-asset-manager
+  contentapi:
+    repo: content_api
+    heroku: odi-contentapi
+  panopticon:
+    repo: panopticon
+    heroku: odi-panopticon
+  publisher:
+    repo: publisher
+    heroku: odi-publisher
+  signonotron2:
+    repo: signonotron2
+    heroku: odi-signon
+  static:
+    repo: static
+    heroku: odi-static
+  www:
+    repo: frontend-www
+    heroku: odi-www
+Miscellaneous:
+  dashboards:
+    repo: dashboards
+    heroku: odi-dashboards
+  forkbomb:
+    repo: forkbomb
+    heroku: forkbomb
+  member-directory:
+    repo: member-directory
+    heroku: odi-member-directory
+  services-manager:
+    repo: services-manager
+    heroku: odi-services-manager

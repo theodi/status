@@ -45,25 +45,39 @@ layout: default
           <a href='https://github.com/{{app[1]["repo"]}}'>{{app[0]}}</a>
         </td>
         <td>
-          <img src='https://img.shields.io/github/issues/{{app[1]["repo"]}}.svg'/>
+          <a href='https://github.com/{{app[1]["repo"]}}/issues'>
+            <img src='https://img.shields.io/github/issues/{{app[1]["repo"]}}.svg'/>
+          </a>
         </td>      
         <td>
-          <img src='https://img.shields.io/github/issues-pr/{{app[1]["repo"]}}.svg'/>
+          <a href='https://github.com/{{app[1]["repo"]}}/pulls'>
+            <img src='https://img.shields.io/github/issues-pr/{{app[1]["repo"]}}.svg'/>
+          </a>
         </td>
         <td>
-          <img src='https://img.shields.io/travis/{{app[1]["repo"]}}.svg'/>
+          <a href='https://travis-ci.org/{{app[1]["repo"]}}'>
+            <img src='https://img.shields.io/travis/{{app[1]["repo"]}}.svg'/>
+          </a>
         </td>
         <td>
-          <img src='https://img.shields.io/coveralls/{{app[1]["repo"]}}.svg'/>
+          <a href='https://coveralls.io/github/{{app[1]["repo"]}}'>
+            <img src='https://img.shields.io/coveralls/{{app[1]["repo"]}}.svg'/>
+          </a>
         </td>
         <td>
-          <img src='https://img.shields.io/gemnasium/{{app[1]["repo"]}}.svg'/>
+          <a href='https://gemnasium.com/github.com/{{app[1]["repo"]}}'>
+            <img src='https://img.shields.io/gemnasium/{{app[1]["repo"]}}.svg'/>
+          </a>
         </td>
         <td>
-          <img src='https://dependencyci.com/github/{{app[1]["repo"]}}/badge'/>
+          <a href='https://dependencyci.com/github/{{app[1]["repo"]}}'>
+            <img src='https://dependencyci.com/github/{{app[1]["repo"]}}/badge'/>
+          </a>
         </td>
         <td>
-          <img src='https://img.shields.io/codeclimate/github/{{app[1]["repo"]}}.svg'/>
+          <a href='https://codeclimate.com/github/{{app[1]["repo"]}}'>
+            <img src='https://img.shields.io/codeclimate/github/{{app[1]["repo"]}}.svg'/>
+          </a>
         </td>
         <td>
           {% if app[1]["heroku"] %}

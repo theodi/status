@@ -9,6 +9,9 @@ Toolbox:
   csvlint:
     github: theodi/csvlint
     heroku: csvlint
+  standards:
+    github: theodi/find_a_standard
+    heroku: find-a-standard
   octopub:
     github: theodi/octopub
     heroku: octopub
@@ -28,6 +31,9 @@ Website:
   publisher:
     github: theodi/publisher
     heroku: odi-publisher
+  rummager:
+    github: theodi/rummager
+    heroku: odi-rummager
   signonotron2:
     github: theodi/signonotron2
     heroku: odi-signon

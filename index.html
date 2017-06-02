@@ -37,41 +37,41 @@ layout: default
     {% for app in group[1] %}
       <tr>
         <td>
-          <a href='https://github.com/{{app[1]["repo"]}}'>{{app[0]}}</a>
+          <a href='https://github.com/{{app[1]["github"]}}'>{{app[0]}}</a>
         </td>
         <td>
-          <a href='https://github.com/{{app[1]["repo"]}}/issues'>
-            <img src='https://img.shields.io/github/issues/{{app[1]["repo"]}}.svg' alt='Issues'/>
+          <a href='https://github.com/{{app[1]["github"]}}/issues'>
+            <img src='https://img.shields.io/github/issues/{{app[1]["github"]}}.svg' alt='Issues'/>
           </a>
         </td>      
         <td>
-          <a href='https://github.com/{{app[1]["repo"]}}/pulls'>
-            <img src='https://img.shields.io/github/issues-pr/{{app[1]["repo"]}}.svg' alt='Pull requests'/>
+          <a href='https://github.com/{{app[1]["github"]}}/pulls'>
+            <img src='https://img.shields.io/github/issues-pr/{{app[1]["github"]}}.svg?label=pulls' alt='Pull requests'/>
           </a>
         </td>
         <td>
-          <a href='https://travis-ci.org/{{app[1]["repo"]}}'>
-            <img src='https://img.shields.io/travis/{{app[1]["repo"]}}.svg' alt='Travis'/>
+          <a href='https://travis-ci.org/{{app[1]["github"]}}'>
+            <img src='https://img.shields.io/travis/{{app[1]["github"]}}/master.svg' alt='Travis'/>
           </a>
         </td>
         <td>
-          <a href='https://coveralls.io/github/{{app[1]["repo"]}}'>
-            <img src='https://img.shields.io/coveralls/{{app[1]["repo"]}}.svg' alt='Coveralls'/>
+          <a href='https://coveralls.io/github/{{app[1]["github"]}}'>
+            <img src='https://img.shields.io/coveralls/{{app[1]["github"]}}.svg' alt='Coveralls'/>
           </a>
         </td>
         <td>
-          <a href='https://gemnasium.com/github.com/{{app[1]["repo"]}}'>
-            <img src='https://img.shields.io/gemnasium/{{app[1]["repo"]}}.svg' alt='Gemnasium'/>
+          <a href='https://gemnasium.com/github.com/{{app[1]["github"]}}'>
+            <img src='https://img.shields.io/gemnasium/{{app[1]["github"]}}.svg?label=gems' alt='Gemnasium'/>
           </a>
         </td>
         <td>
-          <a href='https://dependencyci.com/github/{{app[1]["repo"]}}'>
-            <img src='https://dependencyci.com/github/{{app[1]["repo"]}}/badge' alt='DependencyCI'/>
+          <a href='https://dependencyci.com/github/{{app[1]["github"]}}'>
+            <img src='https://dependencyci.com/github/{{app[1]["github"]}}/badge' alt='DependencyCI'/>
           </a>
         </td>
         <td>
-          <a href='https://codeclimate.com/github/{{app[1]["repo"]}}'>
-            <img src='https://img.shields.io/codeclimate/github/{{app[1]["repo"]}}.svg' alt='Codeclimate'/>
+          <a href='https://codeclimate.com/github/{{app[1]["github"]}}'>
+            <img src='https://img.shields.io/codeclimate/github/{{app[1]["github"]}}.svg?label=quality' alt='Codeclimate'/>
           </a>
         </td>
         <td>

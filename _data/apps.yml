@@ -25,6 +25,9 @@ Website:
   contentapi:
     github: theodi/content_api
     heroku: odi-contentapi
+  contentapi-ng:
+    github: theodi/content-api-ng
+    heroku: content-api-ng
   panopticon:
     github: theodi/panopticon
     heroku: odi-panopticon

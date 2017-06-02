@@ -1,43 +1,31 @@
 Personal:
   floppy.org.uk:
-    repo: Floppy/floppy.github.io
-    heroku: 
+    github: Floppy/floppy.github.io
 CDC:
   cri du chat:
-    repo: cdcssg/cdcssg.github.io
-    heroku: 
+    github: cdcssg/cdcssg.github.io
 OpenPolitics:
   openpolitics:
-    repo: openpolitics/openpolitics.github.io
-    heroku: 
+    github: openpolitics/openpolitics.github.io
   manifesto:
-    repo: openpolitics/manifesto
-    heroku: 
+    github: openpolitics/manifesto
   leanpub-manifesto:
-    repo: openpolitics/leanpub-manifesto
-    heroku: 
+    github: openpolitics/leanpub-manifesto
   uk-taxes:
-    repo: openpolitics/uk-taxes
-    heroku:
+    github: openpolitics/uk-taxes
   votebot:
-    repo: openpolitics/votebot
+    github: openpolitics/votebot
     heroku: votebot
 Something New:
   somethingnew.org.uk:
-    repo: SomethingNewUK/somethingnewuk.github.io
-    heroku: 
+    github: SomethingNewUK/somethingnewuk.github.io
   popolo:
-    repo: SomethingNewUK/popolo-data
-    heroku: 
+    github: SomethingNewUK/popolo-data
   finances:
-    repo: SomethingNewUK/finances
-    heroku: 
+    github: SomethingNewUK/finances
   advertising:
-    repo: SomethingNewUK/advertising
-    heroku: 
+    github: SomethingNewUK/advertising
   redirector:
-    repo: SomethingNewUK/redirector
-    heroku: 
+    github: SomethingNewUK/redirector
   id generator:
-    repo: SomethingNewUK/id_generator
-    heroku: 
+    github: SomethingNewUK/id_generator

@@ -4,10 +4,8 @@ Toolbox:
     heroku: bothan-demo
   certificates:
     github: theodi/open-data-certificate
-    heroku: 
   comma-chameleon:
     github: theodi/comma-chameleon
-    heroku:
   csvlint:
     github: theodi/csvlint
     heroku: csvlint

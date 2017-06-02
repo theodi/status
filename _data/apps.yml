@@ -1,54 +1,54 @@
 Toolbox:
   bothan:
-    repo: theodi/bothan
+    github: theodi/bothan
     heroku: bothan-demo
   certificates:
-    repo: theodi/open-data-certificate
+    github: theodi/open-data-certificate
     heroku: 
   comma-chameleon:
-    repo: theodi/comma-chameleon
+    github: theodi/comma-chameleon
     heroku:
   csvlint:
-    repo: theodi/csvlint
+    github: theodi/csvlint
     heroku: csvlint
   octopub:
-    repo: theodi/octopub
+    github: theodi/octopub
     heroku: octopub
   pathway:
-    repo: theodi/pathway
+    github: theodi/pathway
     heroku: odmat
 Website:
   asset-manager:
-    repo: theodi/asset-manager
+    github: theodi/asset-manager
     heroku: odi-asset-manager
   contentapi:
-    repo: theodi/content_api
+    github: theodi/content_api
     heroku: odi-contentapi
   panopticon:
-    repo: theodi/panopticon
+    github: theodi/panopticon
     heroku: odi-panopticon
   publisher:
-    repo: theodi/publisher
+    github: theodi/publisher
     heroku: odi-publisher
   signonotron2:
-    repo: theodi/signonotron2
+    github: theodi/signonotron2
     heroku: odi-signon
   static:
-    repo: theodi/static
+    github: theodi/static
     heroku: odi-static
   www:
-    repo: theodi/frontend-www
+    github: theodi/frontend-www
     heroku: odi-www
 Miscellaneous:
   dashboards:
-    repo: theodi/dashboards
+    github: theodi/dashboards
     heroku: odi-dashboards
   forkbomb:
-    repo: theodi/forkbomb
+    github: theodi/forkbomb
     heroku: forkbomb
   member-directory:
-    repo: theodi/member-directory
+    github: theodi/member-directory
     heroku: odi-member-directory
   services-manager:
-    repo: theodi/services-manager
+    github: theodi/services-manager
     heroku: odi-services-manager

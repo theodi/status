@@ -50,3 +50,5 @@ Miscellaneous:
   services-manager:
     github: theodi/services-manager
     heroku: odi-services-manager
+  status:
+    github: theodi/status

@@ -17,6 +17,9 @@ OpenPolitics:
   votebot:
     github: openpolitics/votebot
     heroku: votebot
+OverEngineered:
+  website: 
+    github: overengineeredconf.github.io
 Something New:
   somethingnew.org.uk:
     github: SomethingNewUK/somethingnewuk.github.io

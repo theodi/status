@@ -19,7 +19,7 @@ OpenPolitics:
     heroku: votebot
 OverEngineered:
   website: 
-    github: overengineeredconf/overengineeredconf.github.io
+    github: OverEngineeredConf/overengineeredconf.github.io
 Something New:
   somethingnew.org.uk:
     github: SomethingNewUK/somethingnewuk.github.io

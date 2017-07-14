@@ -1,63 +1,39 @@
-Toolbox:
-  bothan:
-    github: theodi/bothan
-    heroku: bothan-demo
-  certificates:
-    github: theodi/open-data-certificate
-  comma-chameleon:
-    github: theodi/comma-chameleon
-  csvlint:
-    github: theodi/csvlint
-    heroku: csvlint
-  standards:
-    github: theodi/find_a_standard
-    heroku: find-a-standard
-  octopub:
-    github: theodi/octopub
-    heroku: octopub
-  pathway:
-    github: theodi/pathway
-    heroku: odmat
-Website:
-  asset-manager:
-    github: theodi/asset-manager
-    heroku: odi-asset-manager
-  contentapi:
-    github: theodi/content_api
-    heroku: odi-contentapi
-  contentapi-ng:
-    github: theodi/content-api-ng
-    heroku: content-api-ng
-  panopticon:
-    github: theodi/panopticon
-    heroku: odi-panopticon
-  publisher:
-    github: theodi/publisher
-    heroku: odi-publisher
-  rummager:
-    github: theodi/rummager
-    heroku: odi-rummager
-  signonotron2:
-    github: theodi/signonotron2
-    heroku: odi-signon
-  static:
-    github: theodi/static
-    heroku: odi-static
-  www:
-    github: theodi/frontend-www
-    heroku: odi-www
-Miscellaneous:
-  dashboards:
-    github: theodi/dashboards
-    heroku: odi-dashboards
-  forkbomb:
-    github: theodi/forkbomb
-    heroku: forkbomb
-  member-directory:
-    github: theodi/member-directory
-    heroku: odi-member-directory
-  services-manager:
-    github: theodi/services-manager
-    heroku: odi-services-manager
-  status:
-    github: theodi/status
+Personal:
+  floppy.org.uk:
+    github: Floppy/floppy.github.io
+  cv: 
+    github: Floppy/cv
+  ruby-version-badger: 
+    github: Floppy/ruby-version-badger
+    heroku: Floppy/ruby-version-badger
+CDC:
+  cri du chat:
+    github: cdcssg/cdcssg.github.io
+OpenPolitics:
+  openpolitics:
+    github: openpolitics/openpolitics.github.io
+  manifesto:
+    github: openpolitics/manifesto
+  leanpub-manifesto:
+    github: openpolitics/leanpub-manifesto
+  uk-taxes:
+    github: openpolitics/uk-taxes
+  votebot:
+    github: openpolitics/votebot
+    heroku: votebot
+OverEngineered:
+  website: 
+    github: OverEngineeredConf/overengineeredconf.github.io
+Something New:
+  somethingnew.org.uk:
+    github: SomethingNewUK/somethingnewuk.github.io
+  popolo:
+    github: SomethingNewUK/popolo-data
+  finances:
+    github: SomethingNewUK/finances
+  advertising:
+    github: SomethingNewUK/advertising
+  redirector:
+    github: SomethingNewUK/redirector
+  id generator:
+    github: SomethingNewUK/id_generator

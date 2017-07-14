@@ -18,6 +18,27 @@ Toolbox:
   pathway:
     github: theodi/pathway
     heroku: odmat
+ODI Libraries:
+  csvlint.rb:
+    github: theodi/csvlint.rb
+  csv2json:
+    github: theodi/csv2json
+  csv2rest:
+    github: theodi/csv2rest
+  csv2rdf:
+    github: theodi/csv2rdf
+  csv2schema:
+    github: theodi/csv2schema
+  csvlint.sh:
+    github: theodi/csvlint.sh
+  data-kitten:
+    github: theodi/data_kitten
+  bothan-deploy:
+    github: theodi/bothan-deploy
+  bothan-js:
+    github: theodi/bothan.js
+  bothan-rb:
+    github: theodi/bothan.rb
 Website:
   asset-manager:
     github: theodi/asset-manager
@@ -61,3 +82,5 @@ Miscellaneous:
     heroku: odi-services-manager
   status:
     github: theodi/status
+  csvhub:
+    github: theodi/csvhub

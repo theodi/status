@@ -9,9 +9,6 @@ Toolbox:
   csvlint:
     github: theodi/csvlint
     heroku: csvlint
-  standards:
-    github: theodi/find_a_standard
-    heroku: find-a-standard
   octopub:
     github: theodi/octopub
     heroku: octopub
@@ -39,6 +36,15 @@ ODI Libraries:
     github: theodi/bothan.js
   bothan-rb:
     github: theodi/bothan.rb
+ODI Labs Experiments:
+  standards:
+    github: theodi/find_a_standard
+    heroku: find-a-standard
+  forkbomb:
+    github: theodi/forkbomb
+    heroku: forkbomb
+  csvhub:
+    github: theodi/csvhub
 Website:
   asset-manager:
     github: theodi/asset-manager
@@ -67,13 +73,10 @@ Website:
   www:
     github: theodi/frontend-www
     heroku: odi-www
-Miscellaneous:
+Internal:
   dashboards:
     github: theodi/dashboards
     heroku: odi-dashboards
-  forkbomb:
-    github: theodi/forkbomb
-    heroku: forkbomb
   member-directory:
     github: theodi/member-directory
     heroku: odi-member-directory
@@ -82,5 +85,3 @@ Miscellaneous:
     heroku: odi-services-manager
   status:
     github: theodi/status
-  csvhub:
-    github: theodi/csvhub

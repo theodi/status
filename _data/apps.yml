@@ -6,6 +6,8 @@ Personal:
   ruby-version-badger: 
     github: Floppy/ruby-version-badger
     heroku: Floppy/ruby-version-badger
+  status:
+    github: Floppy/status
 CDC:
   cri du chat:
     github: cdcssg/cdcssg.github.io

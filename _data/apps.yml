@@ -2,6 +2,9 @@ Toolbox:
   bothan:
     github: theodi/bothan
     heroku: bothan-demo
+  bothan-deploy:
+    github: theodi/bothan-deploy
+    heroku: bothan-deploy
   certificates:
     github: theodi/open-data-certificate
   comma-chameleon:
